@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="../css/mainpage.css"> <!-- Use mainpage.css for consistency -->
+</head>
+<body>
+    <form id="registerForm">
+        <h2>Register</h2>
+        <input type="text" id="username" placeholder="Username" required />
+        <input type="email" id="email" placeholder="Email" required />
+        <input type="password" id="password" placeholder="Password" required />
+        <select id="userType">
+            <option value="client">Client</option>
+            <option value="freelancer">Freelancer</option>
+        </select>
+        <button type="submit">Register</button>
+    </form>
+
+    <script src="../js/auth.js"></script> <!-- Link to auth.js -->
+</body>
+</html>
